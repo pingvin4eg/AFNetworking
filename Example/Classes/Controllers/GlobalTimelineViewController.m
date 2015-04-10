@@ -26,8 +26,8 @@
 
 #import "PostTableViewCell.h"
 
-#import "UIRefreshControl+AFNetworking.h"
-#import "UIAlertView+AFNetworking.h"
+#import <AFNetworkingKit/UIRefreshControl+AFNetworking.h>
+#import <AFNetworkingKit/UIAlertView+AFNetworking.h>
 
 @interface GlobalTimelineViewController ()
 @property (readwrite, nonatomic, strong) NSArray *posts;
