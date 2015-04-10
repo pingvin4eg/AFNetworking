@@ -30,11 +30,11 @@
 #import <CoreServices/CoreServices.h>
 #endif
 
-#import "AFHTTPRequestOperation.h"
-#import "AFURLResponseSerialization.h"
-#import "AFURLRequestSerialization.h"
-#import "AFSecurityPolicy.h"
-#import "AFNetworkReachabilityManager.h"
+#import <AFNetworkingKit/AFHTTPRequestOperation.h>
+#import <AFNetworkingKit/AFURLResponseSerialization.h>
+#import <AFNetworkingKit/AFURLRequestSerialization.h>
+#import <AFNetworkingKit/AFSecurityPolicy.h>
+#import <AFNetworkingKit/AFNetworkReachabilityManager.h>
 
 #ifndef NS_DESIGNATED_INITIALIZER
 #if __has_attribute(objc_designated_initializer)
