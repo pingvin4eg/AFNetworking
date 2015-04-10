@@ -138,6 +138,9 @@
       </FileRef>
    </Group>
    <FileRef
+      location = "group:AFNetworkingKit/AFNetworkingKit.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Tests/AFNetworking Tests.xcodeproj">
    </FileRef>
    <FileRef
