@@ -24,7 +24,6 @@
 		621207271AD7C49A003AC44E /* AFNetworkingKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 621207261AD7C49A003AC44E /* AFNetworkingKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6212072D1AD7C49A003AC44E /* AFNetworkingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621207211AD7C49A003AC44E /* AFNetworkingKit.framework */; };
 		621207341AD7C49A003AC44E /* AFNetworkingKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 621207331AD7C49A003AC44E /* AFNetworkingKitTests.m */; };
-		621207561AD7C4E0003AC44E /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6212073D1AD7C4E0003AC44E /* AFNetworking.h */; };
 		621207571AD7C4E0003AC44E /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6212073E1AD7C4E0003AC44E /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		621207581AD7C4E0003AC44E /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6212073F1AD7C4E0003AC44E /* AFURLConnectionOperation.m */; };
 		621207591AD7C4E0003AC44E /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 621207401AD7C4E0003AC44E /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,7 +42,6 @@
 		621207661AD7C4E0003AC44E /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 621207511AD7C4E0003AC44E /* AFURLRequestSerialization.m */; };
 		621207671AD7C4E0003AC44E /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 621207521AD7C4E0003AC44E /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		621207681AD7C4E0003AC44E /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 621207531AD7C4E0003AC44E /* AFURLResponseSerialization.m */; };
-		6212077B1AD7C4ED003AC44E /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 621207691AD7C4ED003AC44E /* UIKit+AFNetworking.h */; };
 		6212077C1AD7C4ED003AC44E /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6212076A1AD7C4ED003AC44E /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6212077D1AD7C4ED003AC44E /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6212076B1AD7C4ED003AC44E /* AFNetworkActivityIndicatorManager.m */; };
 		6212077E1AD7C4ED003AC44E /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6212076C1AD7C4ED003AC44E /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -79,7 +77,6 @@
 		6212072C1AD7C49A003AC44E /* AFNetworkingKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNetworkingKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		621207321AD7C49A003AC44E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		621207331AD7C49A003AC44E /* AFNetworkingKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingKitTests.m; sourceTree = "<group>"; };
-		6212073D1AD7C4E0003AC44E /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
 		6212073E1AD7C4E0003AC44E /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
 		6212073F1AD7C4E0003AC44E /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
 		621207401AD7C4E0003AC44E /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -98,7 +95,6 @@
 		621207511AD7C4E0003AC44E /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		621207521AD7C4E0003AC44E /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		621207531AD7C4E0003AC44E /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		621207691AD7C4ED003AC44E /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		6212076A1AD7C4ED003AC44E /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
 		6212076B1AD7C4ED003AC44E /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
 		6212076C1AD7C4ED003AC44E /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
@@ -253,7 +249,6 @@
 		621207551AD7C4E0003AC44E /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				6212073D1AD7C4E0003AC44E /* AFNetworking.h */,
 				621207441AD7C4E0003AC44E /* NSURLConnection */,
 				621207491AD7C4E0003AC44E /* NSURLSession */,
 				6212074C1AD7C4E0003AC44E /* Security */,
@@ -267,7 +262,6 @@
 		6212077A1AD7C4ED003AC44E /* UIKit+AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				621207691AD7C4ED003AC44E /* UIKit+AFNetworking.h */,
 				6212076A1AD7C4ED003AC44E /* AFNetworkActivityIndicatorManager.h */,
 				6212076B1AD7C4ED003AC44E /* AFNetworkActivityIndicatorManager.m */,
 				6212076C1AD7C4ED003AC44E /* UIActivityIndicatorView+AFNetworking.h */,
@@ -310,9 +304,7 @@
 				621207841AD7C4ED003AC44E /* UIImageView+AFNetworking.h in Headers */,
 				6212075F1AD7C4E0003AC44E /* AFHTTPSessionManager.h in Headers */,
 				621207881AD7C4ED003AC44E /* UIWebView+AFNetworking.h in Headers */,
-				621207561AD7C4E0003AC44E /* AFNetworking.h in Headers */,
 				621207591AD7C4E0003AC44E /* AFHTTPRequestOperation.h in Headers */,
-				6212077B1AD7C4ED003AC44E /* UIKit+AFNetworking.h in Headers */,
 				6212078A1AD7C4ED003AC44E /* UIRefreshControl+AFNetworking.h in Headers */,
 				621207611AD7C4E0003AC44E /* AFSecurityPolicy.h in Headers */,
 				621207801AD7C4ED003AC44E /* UIAlertView+AFNetworking.h in Headers */,
@@ -657,6 +649,7 @@
 				621207391AD7C49A003AC44E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6212073A1AD7C49A003AC44E /* Build configuration list for PBXNativeTarget "AFNetworkingKitTests" */ = {
 			isa = XCConfigurationList;
@@ -665,6 +658,7 @@
 				6212073C1AD7C49A003AC44E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6212078F1AD7CB11003AC44E /* Build configuration list for PBXAggregateTarget "buildFramework" */ = {
 			isa = XCConfigurationList;
@@ -673,6 +667,7 @@
 				621207911AD7CB11003AC44E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
